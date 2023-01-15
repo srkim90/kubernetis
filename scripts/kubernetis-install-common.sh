@@ -45,9 +45,10 @@ yum -y update
 
 # Hosts 등록
 cat << EOF >> /etc/hosts
-192.168.56.30 k8s-master
-192.168.56.31 k8s-node1
-192.168.56.32 k8s-node2
+192.168.20.10 k8s-master
+192.168.20.11 k8s-node1
+192.168.20.12 k8s-node2
+192.168.20.13 k8s-node3
 EOF
 
 # 도커 설치
